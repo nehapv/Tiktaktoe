@@ -1,0 +1,62 @@
+body {
+  font: 14px ;
+  margin: 20px;
+  background-color: bisque;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(46, 16, 153);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.square {
+  background: rgb(207, 180, 180);
+  border: 2px solid rgb(100, 48, 121);
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+/* 
+.game {
+  display: flex;
+  flex-direction: row;
+} */
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+.game-board{
+  display: flex;
+  justify-content: center;
+}
